@@ -1,0 +1,18 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+
+# Data Files (optional to avoid large files being tracked)
+*.csv
+*.xlsx
+*.qgz
+
+# Environment
+.env
+
+# Logs
+*.log
