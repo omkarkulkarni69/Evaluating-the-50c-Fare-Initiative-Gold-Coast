@@ -4,55 +4,66 @@ This project analyzes the impact of the Queensland Government’s 50-cent public
 
 ---
 
-**Project Scope**
+## 🔍 Analyses at a Glance
 
-- Time Period: 2022–2024
-- Key Focus Areas:
-  - Public transport ridership changes
-  - Traffic volume fluctuations
-  - Delay hours before vs. after fare trial
-  - Predictive modelling (Linear Regression, ARIMA)
+This study is grouped into three major themes: public transport usage, traffic delays, and volume changes.
+
+### 🚉 Public Transport Analysis
+- Passenger trends from 2022 to 2024 (monthly, weekday vs weekend)
+- Mode-by-mode analysis (Bus, Rail, Light Rail)
+- Forecasts using Linear Regression and ARIMA
+
+### ⏱️ Delay Hours Analysis
+- Delay comparison between 2023 and 2024
+- Segmentation by 7 time periods (e.g., Morning Peak, Evening Peak)
+- Predictive analysis using Linear Regression and ARIMA
+
+### 🚗 Traffic Volume Analysis
+- Aggregated vehicle volume comparison (Jul–Sep 2023 vs 2024)
+- Weekday vs weekend differences
+- Geospatial visualisation using QGIS
+
+📌 Data has been cleaned, aggregated, and anonymised to ensure privacy and compliance with IP agreements.
 
 ---
 
-**Repository Structure**
+## 📁 Repository Structure
 
-- `/notebooks`: Jupyter notebooks with delay hours and public transport analysis
-- `/data`: Cleaned datasets used for analysis and visualizations  
-- `/qgis`: QGIS geospatial project files
-- `/docs`: Public-facing documents including proposal, user manuals, final report, and presentation  
-- `/readme`: Markdown user guides for notebooks
-- `README.md`: This file  
-- `.gitignore`: Lists files/folders to exclude from Git version control  
+- `/notebooks`: Jupyter notebooks with delay hours and public transport analysis  
+- `/data`: Cleaned datasets (anonymised, no raw Snowflake data)  
+- `/qgis`: QGIS project files for link-level visualisation  
+- `/docs`: Proposal, user manuals, final report, and presentation (no confidential material)  
+- `/readme`: Notebook-specific markdown guides  
+- `README.md`: Project overview (this file)  
+- `.gitignore`: Files/folders excluded from Git version control  
 - `LICENSE`: MIT License
 
-⚠️ Please note:
-- **No SQL queries, Snowflake tables, or database schemas** are included in this repository due to IP restrictions set by the City of Gold Coast.
-- **Confidential materials** such as IP agreements, client communications, and internal documents have been intentionally excluded from this GitHub repository in accordance with ethical and legal considerations.
+⚠️ SQL queries, Snowflake tables, and raw datasets from the City of Gold Coast are **not included** due to IP protection.  
+⚠️ Confidential agreements and communications are also excluded from this repository.
 
 ---
 
-**Tech Stack**
+## 🛠️ Tech Stack
 
-- Python 3.7+  
+- **Python 3.7+**  
   - pandas, matplotlib, seaborn  
   - scikit-learn (for linear regression)  
-  - statsmodels (for ARIMA forecasting)  
-- Jupyter Notebooks  
-- QGIS (for spatial visualization)
+  - statsmodels (for ARIMA)  
+- **Jupyter Notebooks**  
+- **QGIS** for spatial visualisation
 
 ---
 
-**Key Deliverables**
+## 📊 Key Deliverables
 
-- 📈 Public Transport Usage Trends: Year-over-year comparisons and mode share analysis
-- ⏱️ Delay Hours: Monthly trends, time-of-day segmentation, and pre/post trial comparison
-- 🚗 Volume Analysis: Aggregated traffic volumes and top contributing links
-- 🔮 Forecasts: Linear regression and ARIMA modeling for future delay trends
+- 📈 Public transport usage trends (2022–2024)
+- ⏱️ Delay analysis by time category and month
+- 🚗 Traffic volume trends and link-level maps
+- 🔮 Forecast models (Linear Regression, ARIMA) for delay and ridership
 
 ---
 
-**Team Members**
+## 👥 Team Members
 
 - Omkar Kulkarni  
 - Vishal Kumar  
@@ -61,13 +72,13 @@ This project analyzes the impact of the Queensland Government’s 50-cent public
 
 ---
 
-**License**
+## 📄 License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
 
-**Acknowledgements**
+## Acknowledgements
 
 Special thanks to:
 - City of Gold Coast (Client: Phillip Karfs)  
