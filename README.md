@@ -1,5 +1,23 @@
 # 🚦 Evaluating the 50c Fare Initiative: A Data Analysis of Gold Coast Transport Systems
 
+---
+
+### 📚 Table of Contents
+
+- [🧠 Project Summary](#-project-summary)  
+- [📊 Key Analyses](#-key-analyses)  
+- [🧰 Tools & Technologies](#-tools--technologies)  
+- [🧾 Deliverables](#-deliverables)  
+- [🔒 Note on Internal Tools](#-note-on-internal-tools)  
+- [📁 Repository Structure](#-repository-structure)  
+- [🖼️ Visual Highlights](#-visual-highlights)  
+- [🎯 Impact & Recommendations](#-impact--recommendations)  
+- [👥 Team Members](#-team-members)  
+- [📄 License](#-license)  
+- [🙏 Acknowledgements](#-acknowledgements)
+
+---
+
 ## 🧠 Project Summary  
 This project, in collaboration with the **City of Gold Coast**, analysed the impact of the Queensland Government’s **50c public transport fare initiative** on traffic congestion, delay hours, and public transport usage.
 
@@ -94,5 +112,18 @@ Special thanks to:
 - City of Gold Coast (Client: Phillip Karfs)  
 - Griffith University  
 - Professor Elizabeth Chang (Supervisor)
+
+---
+
+### 🧩 Impact & Recommendations
+
+The insights from this project equip the City of Gold Coast with **data-driven visibility into behavioural and system-level changes** during the 50c fare initiative. These findings support:
+
+- **Service planning** – Adjusting service frequency based on actual usage changes and congestion timing  
+- **Public engagement efforts** – Tailoring outreach based on clear weekday vs weekend and route-level usage trends  
+- **Performance monitoring** – Using forecasting models to benchmark ongoing performance beyond the trial period  
+- **Efficient resource allocation** – Prioritising future data collection and analysis on routes or suburbs showing highest impact
+
+We recommend continuing the analysis with **monthly updates and live feed integrations** to maintain operational responsiveness and enhance trend awareness.
 
 ---
