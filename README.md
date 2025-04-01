@@ -1,5 +1,4 @@
 # 🚦 Evaluating the 50c Fare Initiative: A Data Analysis of Gold Coast Transport Systems
-
 ---
 
 ### 📚 Table of Contents
